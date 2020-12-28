@@ -21,3 +21,5 @@ alert(fullName);
 let ar = 10;
 let vr = ar;
 alert(vr);
+
+//변수 let은 초기화는 생략이 가능
