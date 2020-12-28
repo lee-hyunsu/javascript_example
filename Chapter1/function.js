@@ -28,7 +28,6 @@ function oneFunction(a, b){
 }
 
 
-
 function twoFunction(price, tax){
     const result = price + price * tax;
     return result;
@@ -38,11 +37,13 @@ const myResult = twoFunction(100, 0.1);
 alert((myResult)); // 110출력
 
 
-
 function threeFunction(){
     alert('안녕하세요.');
 }
 threeFunction() //안녕하세요. 출력
+
+
+
 
 
 //화살표 함수 ()=>{} 함수를 간략하게 사용가능. 
@@ -50,8 +51,7 @@ const arrowFun = (a, b, c) => {
     const result = a + b + c;
     return result;
 }
-alert(calcFun(1, 2, 3));
-
+alert(arrowFun(1, 2, 3));
 
 
 //파라미터가 하나인 경우 () 생략 가능/ 2개 이상은 () 생략 불가능
@@ -61,3 +61,35 @@ const arrow2Fun = a => {
 
 //화살표 함수의 정의가 한 줄인 경우 {}와 return 생략 가능
 const arrow3Fun = a => a + 2;
+
+
+
+
+//함수의 파라미터 초기 값 설정
+function calcFunction(price, tax = 0.08) {
+    const result = price + price * tax;
+    return result;
+}
+// tax의 인수를 생략하면 초깃값 0.08사용
+const result1 = calcFunction(100);
+alert(result1); // 108출력    /  디폴트 파라미터라고 함.
+// tax의 전달 값을 지정하면 해당 값 사용
+const result2 = calcFunction(100, 0.1);
+alert(result2); // 110출력
+
+
+
+
+//다수의 파라미터 또는 파라미터의 개수가 미정일 때
+function parSum(...prices) {
+    let result = 0;
+    for(const value of prices){
+        result += value;
+    }
+    return result;
+}
+const result3 = parSum(10, 20);
+alert(result3);
+
+const result4 = parSum(5, 10, 15);
+alert(result4);
