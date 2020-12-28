@@ -44,3 +44,20 @@ function threeFunction(){
 }
 threeFunction() //안녕하세요. 출력
 
+
+//화살표 함수 ()=>{} 함수를 간략하게 사용가능. 
+const arrowFun = (a, b, c) => {
+    const result = a + b + c;
+    return result;
+}
+alert(calcFun(1, 2, 3));
+
+
+
+//파라미터가 하나인 경우 () 생략 가능/ 2개 이상은 () 생략 불가능
+const arrow2Fun = a => {
+    return a + 2;
+}
+
+//화살표 함수의 정의가 한 줄인 경우 {}와 return 생략 가능
+const arrow3Fun = a => a + 2;
