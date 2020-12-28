@@ -84,12 +84,12 @@ alert(result2); // 110출력
 function parSum(...prices) {
     let result = 0;
     for(const value of prices){
-        result += value;
-    }
+        result += value; // result = result + value
+    } //for (int i=0;i<prices.length;i += 1) const value = prices[i] 이 개념이라 생각하자
     return result;
 }
 const result3 = parSum(10, 20);
-alert(result3);
+alert(result3); //30 출력
 
 const result4 = parSum(5, 10, 15);
-alert(result4);
+alert(result4); //30 출력
