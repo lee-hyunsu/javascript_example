@@ -30,3 +30,20 @@ for(let i = 0; i < 10; i++){
     alert(i); //홀수만 출력
 }
 alert('루프 종료'); //루프가 끝나면 실행
+
+
+
+//함수식
+function myFunction(flagA){
+    for(let j = 0; j < 10; j++){
+        if(flagA === false){
+            continue;
+        }
+
+        if(j % 2 === 0){
+            continue;
+        }
+            console.log(j);
+    }
+}
+myFunction(true);
