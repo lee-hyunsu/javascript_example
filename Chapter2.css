@@ -1,7 +1,9 @@
 .rectangle{
     width: 100%;
     height: calc(100% - 50px);
+    /*hsl은 색상, 채도, 명도를 의미*/
     --start: hsl(0, 100%, 50%);
     --end: hsl(322, 100%, 50%);
+    /*선형 그레디언트 = 색변화?.. -135deg는 각도를 뜻함.*/
     background-image: linear-gradient(-135deg, var(--start), var(--end));
 }
