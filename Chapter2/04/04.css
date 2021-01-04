@@ -1,0 +1,9 @@
+.character {
+    background-image: url(file:///C:/Users/shell/Desktop/javascript_example/Chapter2/04/04.png);
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
