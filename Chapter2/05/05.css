@@ -12,3 +12,11 @@ p {
     text-shadow: -1px -1px 1px #333333, 1px 1px black;
     margin: 0;
 }
+
+p1 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px #333333, 1px 1px black;
+    margin: 0;
+}
