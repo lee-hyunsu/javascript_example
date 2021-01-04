@@ -1,0 +1,20 @@
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+  
+table {
+    align-self: center;
+}
+  
+table table,
+table th,
+table td {
+    border: 1px solid #333333;
+}
+  
+table th,
+table td {
+    box-sizing: border-box;
+    padding: 10px;
+}
