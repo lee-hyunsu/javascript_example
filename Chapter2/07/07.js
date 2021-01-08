@@ -1,3 +1,4 @@
+//원하는 문자열의 위치
 const myString = 'JavaScript를 배우자';
 
 //JavaScript는 첫 번째 문자열이기 때문에 0
