@@ -1,0 +1,28 @@
+main {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background-color: rgba(255, 255, 255, 0.7);
+    display: grid;
+    grid-template: 'header' auto 'table' 1fr / 100%;
+}
+  
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+  
+table {
+    align-self: center;
+}
+  
+table table,
+table th,
+table td {
+    border: 1px solid #333333;
+}
+  
+table th,
+table td {
+    box-sizing: border-box;
+    padding: 10px;
+}
