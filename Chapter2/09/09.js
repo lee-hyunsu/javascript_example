@@ -3,7 +3,7 @@ console.log('JavaScript'.charAt(3)); //a
 console.log('JavaScript'.charAt()); //J
 
 //검색어
-const searchWordText = document.querySelector("#search=word-input");
+const searchWordText = document.querySelector("#search-word-input");
 
 //지역 리스트
 const areaList = document.querySelectorAll("#area-list button");
