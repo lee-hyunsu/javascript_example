@@ -11,4 +11,5 @@ const inputText = '제이/n-펍';
 inputText.replace('/n', ''); //제이-펍
 
 let phoneNumber = '010-7587-3955';
-phoneNumber.replace('-', ''); //0107587-3955 출력
+console.log(phoneNumber.replace('-', '')); //0107587-3955 출력
+console.log(phoneNumber.replace(/-/g, '')); //01075873955 출력
