@@ -6,6 +6,13 @@
     border: none;
     border-bottom: 1px solid #c1c1c1;
   }
+
+  #warningMessage {
+    color: #ff5967;
+    font-weight: bold;
+    font-size: 20px;
+    height: 22px;
+  }
   
   button {
     position: absolute;
