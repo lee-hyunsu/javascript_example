@@ -15,7 +15,7 @@ const parameters = location.search.split(/&|\?/).filter((value) => {
     return value.includes('=');
 });
 
-//hashes [key]=value으; 형태로 객체에 보관.
+//hashes [key]=value의 형태로 객체에 보관.
 parameters.forEach((parameter) => {
     const parameterList = parameter.split('=');
     const key = parameterList[0];
