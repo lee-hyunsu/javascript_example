@@ -1,0 +1,26 @@
+table {
+    align-self: center;
+    width: 100%;
+  }
+  
+  table table,
+  table th,
+  table td {
+    border: 1px solid #333333;
+  }
+  
+  table th,
+  table td {
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  table th {
+    width: 30%;
+  }
+  
+  table th,
+  table td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
