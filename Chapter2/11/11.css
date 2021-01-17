@@ -1,3 +1,23 @@
+main {
+  background-color: #f7f7f7;
+  width: 100%;
+  max-width: 640px;
+  min-height: 400px;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+
 #phoneNumberText {
     margin-top: 20px;
     width: 100%;
@@ -5,16 +25,16 @@
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #c1c1c1;
-  }
+}
 
-  #warningMessage {
+#warningMessage {
     color: #ff5967;
     font-weight: bold;
     font-size: 20px;
     height: 22px;
-  }
+}
   
-  button {
+button {
     position: absolute;
     bottom: 20px;
     left: calc(50% - 90px);
@@ -33,9 +53,9 @@
     transition: background-color 0.2s;
     width: 180px;
     background-color: rgba(59, 191, 61, 0.76);
-  }
+}
   
-  .caption small {
+.caption small {
     font-size: 12px;
     color: #949494;
-  }
+}
