@@ -21,7 +21,7 @@ console.log(b1);
 const b2 = myString.indexOf('j');
 console.log(b2);
 
-
+//연동 코드
 const targetString = 'JavaScript를 배우자';
 
 document.querySelector('.result1').innerHTML = targetString.indexOf('JavaScript');

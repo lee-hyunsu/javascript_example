@@ -1,6 +1,10 @@
+body{
+    
+}
+
 main {
     width: calc(100% - 40px);
-    height: calc(100% - 40px);
+    height: calc(100% - 40px); 
     background-color: rgba(255, 255, 255, 0.7);
     display: grid;
     grid-template: 'header' auto 'table' 1fr / 100%;

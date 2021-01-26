@@ -13,7 +13,7 @@ console.log(a2);
 const a3 = myString.endsWith('배우자');
 console.log(a3);
 
-
+//연동코드
 const targetString = 'JavaScript를 배우자';
 
 document.querySelector('.result1').innerHTML = targetString.includes('JavaScript');
