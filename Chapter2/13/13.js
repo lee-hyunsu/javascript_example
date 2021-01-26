@@ -26,5 +26,5 @@ function onKeyup(){
     fullName.innerHTML = familyName + ' ' + firstName;
 
     //위 방법과 다른 방법
-    //fullName.innerHTML = `${familyName} ${firstName}`;f
+    //fullName.innerHTML = `${familyName} ${firstName}`;
 }
