@@ -14,8 +14,11 @@ const firstNameText = document.querySelector('#firstNameText');
 //성명
 const fullName = document.querySelector('#fullName');
 
+firstNameText.addEventListener('keyup', onKeyUp);
+familyNameText.addEventListener('keyup', onKeyUp);
+
 //문자가 입려될 때마다 실행되는 함수
-function onKeyup(){
+function onKeyUp(){
     //성
     const familyName = familyNameText.value;
 
