@@ -1,0 +1,35 @@
+.name-input {
+    margin-top: 20px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.warning-message{
+    color: #ff5967;
+    font-weight: bold;
+    font-size: 20px;
+    height: 22px;
+}
+
+.bottom-wrapper {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    left: 0;
+    margin-top: auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-wrapper button{
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    border: none;
+}
