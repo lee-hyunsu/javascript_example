@@ -1,18 +1,121 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h1
+{
+  font-weight: normal;
+}
+
+button {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "맑은고딕","Malgun Gothic",serif;
+  font-size: 22px;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+
+h1,
+p,
+label,
+button
+{
+  margin-bottom: 20px;
+}
+
+a {
+  color: #fff;
+}
+
+p {
+  line-height: 36px;
+}
+
+
+input,
+button,
+label
+ {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+button {
+  width: 300px;
+}
+
+label input {
+  margin-left: 20px;
+}
+
+body {
+  color: #333333;
+  background-color: #c2405a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #fff;
+  width: 100%;
+  max-width: 640px;
+  min-height: 400px;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
 .name_container {
     display: flex;
-  }
+}
   
-  .name_container > label:first-child {
+.name_container > label:first-child {
     margin-right: 20px;
-  }
+}
   
-  input {
+input {
     border: 1px solid #888888;
-  }
+}
   
-  #fullName {
+#fullName {
     margin-top: 40px;
     font-size: 60px;
     height: 60px;
     border-bottom: 1px solid #888888;
-  }
+}
