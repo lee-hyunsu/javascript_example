@@ -12,8 +12,8 @@ nameInput.addEventListener('input', () => {
     //입력된 문자를 소문자로 변환
     const normalStr = inputStr.toLowerCase();
     //'test'포함 여부 알림
-    if(normalStr.includes('test') === true){
-        warningMessage.textContent = 'test가 포함되어 있음';
+    if(normalStr.includes('dlgustn675') === true){
+        warningMessage.textContent = 'dlgustn675가 포함되어 있음';
     } else {
         warningMessage.textContent = '';
     }
