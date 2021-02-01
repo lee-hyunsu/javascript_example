@@ -18,7 +18,7 @@ phoneNumberText.addEventListener('keyup', () => {
     const trimmedPhoneNumber = phoneNumber.replace(/-/g, ''); //01075873955
 
     //0으로 시작하는 10자리 혹은 11자리의 번호 형식 체크
-    if(/^[0][0-9]{9, 10}$/.test(trimmedPhoneNumber) === false) {
+    if(/^[0][0-9]{9,10}$/.test(trimmedPhoneNumber) === false) {
         warningMessage.innerText = '전화번호의 형식에 맞춰 입력해 주세요.';
     } else {
         warningMessage.innerText = '';
