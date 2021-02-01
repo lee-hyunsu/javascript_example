@@ -13,8 +13,8 @@ console.log((10).toPrecision(4)); // 10.00
 //초 단위용 element
 const secondElement = document.querySelector('.second');
 
-//10 목표치 설정
-const goalTime = new Date().getTime() + 10 * 1000;
+//5 목표치 설정
+const goalTime = new Date().getTime() + 5 * 1000;
 
 update();
 
@@ -28,7 +28,7 @@ function update(){
 
     //남은 시간이 0초 미만이면 타이머 정지
     if(leftTime <= 0) {
-        secondElement.innerText = '15초가 지났다.';
+        secondElement.innerText = '5초가 지났다.';
         return;
     }
 
