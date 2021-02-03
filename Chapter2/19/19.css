@@ -1,0 +1,36 @@
+body{
+    background-size: cover;
+    background: url("weather.jpg") center;
+}
+
+main{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: grid;
+    gap: 10px; /*row간격 10px, column간격 10px*/
+    grid-template: 'header' auto 'textarea' 1fr 'button' auto / 100%;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#tweetTextArea{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+#tweetButton{
+    max-width: 300px;
+    justify-self: center;
+    background-color: #2673a6;
+    font-size: 30px;
+}
+
+#tweetButton:hover{
+    background-color: #2688bc;
+}
+
+#tweetButton:active{
+    background-color: #265c8f;
+}
