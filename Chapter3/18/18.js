@@ -21,12 +21,35 @@ const userDataList = [
     {name: '고양이', age: 42},
     {name: '생쥐', age: 22},
     {name: '기린', age: 19},
-    {name: '얼룩말', age: 35},
+    {name: '얼룩말', age: 35}
 ];
 
 //.button 요소의 이벤트 설정
-document.querySelector('.button').forEach((element) => {
+document.querySelectorAll('.button').forEach((element) => {
     element.addEventListener('click', (event) => {
         onClickButton(event);
     });
 });
+
+//버튼 클릭 시 처리
+function onClickButton(event){
+    //클릭한 버튼의 요소
+    const button = event.target;
+    //버튼 요소에서 data-age가져오기
+    const targetAge = button.dataset.age;
+    //targetAge 이사의 유저 배열 생성
+    const filterdList = userDataList.filter((data) => data.age >= targetAge);
+    //배열 출력
+    updateList(filterdList);
+}
+
+//유저 배열 출력
+function updateList(filterdList){
+    let listHtml = '';
+
+    for (const data of filterdList) {
+        listHtml += `<li>${data.name} : ${data.age}세</li>`;
+    }
+
+    document.querySelector('.user_list').innerHTML = listHtml;
+}
