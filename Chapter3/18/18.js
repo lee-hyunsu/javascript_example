@@ -14,14 +14,14 @@ console.log(newArray1);
 console.log(newArray2);
 
 const userDataList = [
-    {name: '곰', age: 18},
-    {name: '사자', age: 31},
-    {name: '호랑이', age: 46},
-    {name: '강아지', age: 27},
-    {name: '고양이', age: 42},
-    {name: '생쥐', age: 22},
-    {name: '기린', age: 19},
-    {name: '얼룩말', age: 35}
+    {name: '이현수', age: 25},
+    {name: '홍길동', age: 31},
+    {name: '김철수', age: 46},
+    {name: '신짱구', age: 27},
+    {name: '이훈이', age: 42},
+    {name: '김영희', age: 22},
+    {name: '흰둥이', age: 19},
+    {name: '신짱아', age: 35}
 ];
 
 //.button 요소의 이벤트 설정
